@@ -1,0 +1,24 @@
+{
+    "name": "actuators",
+    "version": "1.0.0",
+    "description": "PH2.0执行器",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*",
+		"servo": "github:gchen1996/pxt-servo"
+    },
+    "files": [
+        "README.md",
+		"main.ts",
+		"shims.d.ts",
+        "enums.d.ts",
+        "ir.cpp",
+        "ReceiverIR.cpp",
+        "ReceiverIR.h",
+        "RemoteIR.h",
+        "TransmitterIR.cpp",
+        "TransmitterIR.h",
+		"_locales/zh/actuators-strings.json"
+    ],
+    "public": true
+}

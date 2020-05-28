@@ -1,0 +1,41 @@
+{
+	"IrRemote|block": "红外遥控器",
+    "IrRemote.init|block": "红外遥控器初始化引脚|%pin",
+    "IrRemote.onPressEvent|block": "当红外遥控器按键|%btn|按下",
+	
+	"on_off._on|block": "打开",
+	"on_off._off|block": "关闭",
+	
+	"run_turn.forward|block": "正转",
+	"run_turn.reverse|block": "反转",
+	
+	
+	"actuators|block": "执行器",
+	"actuators.setIR_pin|block": "红外线发射脚位: %myPin",
+    "actuators.setREC_pin|block": "红外线接收脚位: %myPin",
+    "actuators.sendMyMessage1|block": "发射红外线信号: %msg| ,发射次数： %times| 次, 编码:%myType",
+    "actuators.sendMyMessage2|block": "发射红外线信号: %msg| ,发射次数： %times| 次, 编码:%myType",
+    "actuators.onReceivedIR|block": "当接收到红外线信号时",
+    "actuators.getRecType|block": "接收到的红外线编码",
+    "actuators.getMessage|block": "接收到的红外线信号",
+	
+	
+	"actuators.actuator_buzzer0|block": "无源蜂鸣器控制引脚 ：%pin|状态 %status",
+	
+    "actuators.actuator_buzzer1|block": "有源蜂鸣器控制引脚 ：%pin|状态 %status",
+
+    "actuators.actuator_relay|block": "继电器控制引脚 ：%pin|状态 %status",
+	
+	"actuators.actuator_laser|block": "激光控制引脚 ：%pin|状态 %status",
+	
+	"actuators.actuator_motor_pin|block": "直流电机初始化|INA引脚 %INA|INB引脚 %INB",
+	"actuators.actuator_motor_run|block": "电机运行模式  %turn",
+
+    "actuators.actuator_keyborad_pin|block": "触摸键盘初始化|SDO引脚 %SDO|SCL引脚 %SCL",
+    "actuators.actuator_keyborad_read|block": "读取到的键盘值"
+	
+
+
+
+    
+}
