@@ -5,7 +5,7 @@
     "license": "MIT",
     "dependencies": {
         "core": "*",
-		"servo": "github:gchen1996/pxt-servo"
+		"servo": "github:xiaozhou-lei/pxt-servo"
     },
     "files": [
         "README.md",
