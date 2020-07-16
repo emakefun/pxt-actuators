@@ -12,12 +12,9 @@
 	
 	"actuators|block": "执行器",
 	"actuators.setIR_pin|block": "红外线发射脚位: %myPin",
-    "actuators.setREC_pin|block": "红外线接收脚位: %myPin",
-    "actuators.sendMyMessage1|block": "发射红外线信号: %msg| ,发射次数： %times| 次, 编码:%myType",
-    "actuators.sendMyMessage2|block": "发射红外线信号: %msg| ,发射次数： %times| 次, 编码:%myType",
-    "actuators.onReceivedIR|block": "当接收到红外线信号时",
-    "actuators.getRecType|block": "接收到的红外线编码",
-    "actuators.getMessage|block": "接收到的红外线信号",
+        "actuators.sendMyMessage1|block": "发射红外线信号: %msg| ,发射次数： %times| 次, 编码:%myType",
+        "actuators.sendMyMessage2|block": "发射红外线信号: %msg| ,发射次数： %times| 次, 编码:%myType",
+
 	
 	
 	"actuators.actuator_buzzer0|block": "无源蜂鸣器控制引脚 ：%pin|状态 %status",
